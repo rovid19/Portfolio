@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,700;1,400&display=swap");
+
+body {
+  font-family: "Poppins";
+}
+.centar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.bato {
+  box-shadow: -10px 10px 70px rgba(0, 0, 0, 0.3);
+}
+
+.centrar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.baba {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.final {
+  background-image: linear-gradient(45deg, #0f0326, #36c9c6);
+  background-size: 400%;
+  animation: bg-animation 20s infinite alternate;
+}
+
+@keyframes bg-animation {
+  0% {
+    background-position: left;
+  }
+  100% {
+    background-position: right;
+  }
+}
