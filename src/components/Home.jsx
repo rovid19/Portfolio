@@ -3,7 +3,6 @@ import Img from "../slike/pozadina.jpg";
 import Img1 from "../slike/ide.png";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
-import Perti from "./Perti";
 
 const Home = () => {
   const style = {

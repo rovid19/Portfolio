@@ -6,6 +6,7 @@ import Img1 from "../slike/projekt.jpg";
 import { motion } from "framer-motion";
 import { FaGithub } from "react-icons/fa";
 import { useState } from "react";
+
 const Projects = () => {
   const [link, setLink] = useState(
     "https://rovid19.github.io/SoccerScoreFinal/"
