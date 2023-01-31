@@ -53,7 +53,7 @@ const Projects = () => {
                 "ScoreBatHighlights". Optimized for both mobile and desktop.
               </h1>
               <a
-                href="https://github.com/rovid19/SoccerScoreFinal"
+                href="https://main--astounding-bienenstitch-427a21.netlify.app/"
                 target="_blank"
                 className="mt-4 bg-yellow text-black rounded-sm p-1 hover:bg-red transition-all flex items-center"
               >
